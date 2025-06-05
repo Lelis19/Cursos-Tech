@@ -1,4 +1,4 @@
-<h3>Tech Cursos</h3>
+<h3>Cursos Tech</h3>
 
 Aplicativo mobile desenvolvido com React Native para listagem e visualização de cursos cadastrados no Firebase.
 
