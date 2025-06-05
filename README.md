@@ -25,7 +25,6 @@ Aplicativo mobile desenvolvido com React Native para listagem e visualização d
   <img src="https://github.com/user-attachments/assets/406866d9-4acd-4d30-ab8f-f6b3b4fecea1" width="200"/>
   <img src="https://github.com/user-attachments/assets/1871ac5f-bc5f-4518-a426-434c69e28643" width="200"/>
   <img src="https://github.com/user-attachments/assets/5930517d-9457-4123-a74f-00d18659bf67" width="200"/>
-  <img src="https://github.com/user-attachments/assets/bf86730d-caf3-4ea7-82db-61b11166579f" width="200"/>
   <img src="https://github.com/user-attachments/assets/19eab86d-9ebb-4c92-90ee-8fb03817c8b2" width="200"/>
   <img src="https://github.com/user-attachments/assets/784a74af-1bca-4b1d-ae4b-f67724ad012d" width="200"/>
   <img src="https://github.com/user-attachments/assets/f0644518-4670-4f7b-a390-97c6916d68f5" width="200"/>
