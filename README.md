@@ -21,9 +21,11 @@ Aplicativo mobile desenvolvido com React Native para listagem e visualização d
 - react-native-dotenv: Biblioteca para carregar variáveis de ambiente a partir de um arquivo .env.
 
 <h3>Screenshots</h3>
-<p float="left">
+<p float="left">![e38280df-0321-43ea-ad33-b206bb6db682](https://github.com/user-attachments/assets/2a93652e-8925-4dbc-b6cb-8cb9d1d2bf7e)
+
   <img src="https://github.com/user-attachments/assets/406866d9-4acd-4d30-ab8f-f6b3b4fecea1" width="200"/>
   <img src="https://github.com/user-attachments/assets/1871ac5f-bc5f-4518-a426-434c69e28643" width="200"/>
+  <img src="https://github.com/user-attachments/assets/2a93652e-8925-4dbc-b6cb-8cb9d1d2bf7e" width="200"/>
   <img src="https://github.com/user-attachments/assets/5930517d-9457-4123-a74f-00d18659bf67" width="200"/>
   <img src="https://github.com/user-attachments/assets/19eab86d-9ebb-4c92-90ee-8fb03817c8b2" width="200"/>
   <img src="https://github.com/user-attachments/assets/784a74af-1bca-4b1d-ae4b-f67724ad012d" width="200"/>
