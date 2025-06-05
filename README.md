@@ -1,107 +1,32 @@
-# Estrutura do Projeto - Aplicativo Mobile de Gerenciamento de Cursos
+<h3>Tech Cursos</h3>
 
-## Visão Geral
+Aplicativo mobile desenvolvido com React Native para listagem e visualização de cursos cadastrados no Firebase.
 
-Este é um aplicativo mobile desenvolvido com React Native e Expo que implementa um sistema de gerenciamento de cursos. O aplicativo utiliza Firebase para autenticação de usuários e armazenamento de dados (Firestore).
+<h3>Funcionalidades</h3>
 
-## Tecnologias Principais
+- Tela de login
+- Tela de registro de conta
+- Listagem de cursos com opção de adicionar e deletar
+- Tela de registro de curso
+- Visualização de detalhes do curso
+- Aba de perfil com e-mail e opção de sair
 
-- **React Native**: Framework para desenvolvimento de aplicações móveis
-- **Expo**: Plataforma para facilitar o desenvolvimento React Native
-- **Firebase**: 
-  - Authentication: Gerenciamento de usuários
-  - Firestore: Banco de dados NoSQL para armazenamento dos cursos
-- **React Navigation**: Biblioteca para navegação entre telas
-  - Stack Navigator: Navegação em pilha
-  - Bottom Tab Navigator: Menu de navegação inferior
+<h3>Tecnologias</h3>
 
-## Estrutura de Diretórios
+- React Native: Framework principal para desenvolvimento de aplicativos móveis nativos.
+- Expo: Plataforma para desenvolvimento rápido e fácil de apps React Native, com suporte para iOS, Android e Web.
+- React Navigation: Biblioteca para navegação entre telas, incluindo navegação por abas e stacks.
+- Firebase: Plataforma para autenticação de usuários e banco de dados em tempo real (Firestore).
+- Babel: Transpilador de JavaScript usado para converter código moderno em um formato compatível com plataformas mais antigas.
+- react-native-dotenv: Biblioteca para carregar variáveis de ambiente a partir de um arquivo .env.
 
-### `/src`
-
-A pasta principal do código-fonte do aplicativo, organizada da seguinte maneira:
-
-#### `/src/config`
-
-Contém configurações gerais do aplicativo:
-- `firebaseConfig.js`: Configuração de conexão com o Firebase, utilizando variáveis de ambiente para as credenciais de API
-
-#### `/src/context`
-
-Implementa o Context API do React para gerenciar estados globais:
-- `AuthContext.js`: Gerencia o estado de autenticação do usuário, oferecendo:
-  - Verificação de estado de autenticação
-  - Controle de loading
-  - Função de logout
-
-#### `/src/navigation`
-
-Gerencia a navegação do aplicativo:
-- `AppNavigation.js`: Define a estrutura de navegação combinando Stack e Tab Navigator:
-  - Stack Navigator para fluxos principais (login, detalhes, formulários)
-  - Tab Navigator para navegação principal entre Home e Perfil
-
-#### `/src/screens`
-
-Contém todas as telas do aplicativo:
-- `LoginScreen.js`: Tela de autenticação
-- `RegisterScreen.js`: Tela de cadastro de usuários
-- `HomeScreen.js`: Tela inicial com listagem de cursos
-- `DetailsScreen.js`: Exibe detalhes de um curso específico
-- `CursoFormScreen.js`: Formulário para criação/edição de cursos
-- `ProfileScreen.js`: Perfil do usuário
-
-#### `/src/services`
-
-Implementa a comunicação com APIs e serviços externos:
-- `CursoService.js`: Fornece funções para operações CRUD com a coleção de cursos no Firestore:
-  - `getCursos`: Busca cursos do usuário
-  - `adicionarCurso`: Cria novo curso
-  - `atualizarCurso`: Atualiza curso existente
-  - `deletarCurso`: Remove curso
-
-## Fluxo da Aplicação
-
-1. O aplicativo inicia com o componente `App.js` na raiz, que configura:
-   - `NavigationContainer`: Container principal para navegação
-   - `AuthProvider`: Provedor de contexto de autenticação
-   - `AppNavigation`: Estrutura de navegação
-
-2. Fluxo do usuário:
-   - Login/Registro através de Firebase Authentication
-   - Navegação pela lista de cursos na Home
-   - Opções para adicionar, visualizar detalhes, editar e excluir cursos
-   - Perfil com informações do usuário e opção de logout
-
-## Aspectos Relevantes para Entrevista Técnica
-
-### Arquitetura
-
-- **Context API**: Utilizada para gerenciar o estado global de autenticação
-- **Componentização**: Separação clara entre telas e lógica de negócio
-- **Serviços**: Abstração da comunicação com o Firebase em serviços dedicados
-
-### Boas Práticas
-
-- **Organização de Código**: Estrutura de diretórios bem definida e organizada por função
-- **Variáveis de Ambiente**: Uso de dotenv para gerenciar credenciais
-- **Confirmação de Ações**: Alertas de confirmação para ações críticas (ex: exclusão)
-- **Reatividade**: Atualização automática da lista ao focar na tela (`useFocusEffect`)
-
-### Segurança
-
-- **Autenticação Firebase**: Implementação segura de login/registro
-- **Regras de Acesso**: Filtro de dados por usuário (`where('userId', '==', userId)`)
-- **Variáveis de Ambiente**: Credenciais não expostas diretamente no código
-
-### Interface do Usuário
-
-- **Estilização**: Uso de StyleSheet para estilos organizados
-- **Feedback Visual**: Alertas e confirmações para ações do usuário
-- **Navegação Intuitiva**: Combinação de navegação em pilha e abas inferiores
-
-### Pontos de Extensibilidade
-
-- A estrutura permite fácil adição de novas funcionalidades
-- Separação clara entre UI e lógica de negócios facilita manutenção e testes
-- Serviços isolados permitem alteração da fonte de dados sem impactar a UI
+<h3>Screenshots</h3>
+<p float="left">
+  ![eb835188-f579-4af8-81d8-9eb9c0740c2d](https://github.com/user-attachments/assets/bf86730d-caf3-4ea7-82db-61b11166579f)
+  ![fe973afe-4d33-4529-8e58-601bd68ba56b](https://github.com/user-attachments/assets/19eab86d-9ebb-4c92-90ee-8fb03817c8b2)
+  ![f37842d8-1e86-428d-b41b-9ff7d1ec91ac](https://github.com/user-attachments/assets/784a74af-1bca-4b1d-ae4b-f67724ad012d)
+  <img src="https://github.com/user-attachments/assets/f0644518-4670-4f7b-a390-97c6916d68f5" width="200"/>
+  <img src="https://github.com/user-attachments/assets/fe61bb71-d46b-43a2-a07e-00e179e57528" width="200"/>
+  <img src="https://github.com/user-attachments/assets/f775643e-2a5a-459c-a0a4-1c58a8118c3d" width="200"/>
+  <img src="https://github.com/user-attachments/assets/100d8376-437d-4d3e-9d89-020d31840056" width="200"/>
+</p>
