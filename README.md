@@ -22,6 +22,9 @@ Aplicativo mobile desenvolvido com React Native para listagem e visualização d
 
 <h3>Screenshots</h3>
 <p float="left">
+  ![WhatsApp Image 2025-06-05 at 09 35 53](https://github.com/user-attachments/assets/406866d9-4acd-4d30-ab8f-f6b3b4fecea1)
+  ![WhatsApp Image 2025-06-05 at 09 35 53 (1)](https://github.com/user-attachments/assets/1871ac5f-bc5f-4518-a426-434c69e28643)
+  ![WhatsApp Image 2025-06-05 at 09 35 52](https://github.com/user-attachments/assets/5930517d-9457-4123-a74f-00d18659bf67)
   ![eb835188-f579-4af8-81d8-9eb9c0740c2d](https://github.com/user-attachments/assets/bf86730d-caf3-4ea7-82db-61b11166579f)
   ![fe973afe-4d33-4529-8e58-601bd68ba56b](https://github.com/user-attachments/assets/19eab86d-9ebb-4c92-90ee-8fb03817c8b2)
   ![f37842d8-1e86-428d-b41b-9ff7d1ec91ac](https://github.com/user-attachments/assets/784a74af-1bca-4b1d-ae4b-f67724ad012d)
